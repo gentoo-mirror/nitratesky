@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=media-gfx/maim x11-libs/libnotify >=x11-apps/xrandr-1.5.1 >=x11-misc/xdotool-3.20160805.1 >=x11-misc/xclip-0.13
+DESCRIPTION=A small ctl wrapper around main to be used in conjunction with i3/sway.
+EAPI=7
+HOMEPAGE=https://gist.github.com/VTimofeenko/87940496bd6bb9eec7f397bfe2ffe411
+KEYWORDS=~amd64 ~x86
+LICENSE=WTFPL
+RDEPEND=media-gfx/maim x11-libs/libnotify >=x11-apps/xrandr-1.5.1 >=x11-misc/xdotool-3.20160805.1 >=x11-misc/xclip-0.13
+SLOT=0
+SRC_URI=https://gist.githubusercontent.com/VTimofeenko/87940496bd6bb9eec7f397bfe2ffe411/raw/cc3907074b1a2edce8101b37c0c9043215ba7ac7/monitorshot2.sh
+_md5_=5836596895814b3a419366f22bc24398

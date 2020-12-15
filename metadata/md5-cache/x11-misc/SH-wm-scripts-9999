@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst unpack
+DEPEND=libvirt? ( app-emulation/libvirt ) sensors? ( sys-apps/lm-sensors ) pulsemixer? ( media-sound/pulsemixer ) pavucontrol? ( media-sound/pavucontrol ) headsetcontrol? ( app-misc/headsetcontrol ) shortcuts? ( x11-misc/xvkbd ) todo? ( app-office/todoman ) x11-misc/xkblayout-state x11-misc/dunst
+DESCRIPTION=This is a collection of scripts to be used with tmux, i3-gaps and i3blocks.
+EAPI=7
+HOMEPAGE=https://github.com/VTimofeenko/wm-scripts
+IUSE=libvirt sensors pulsemixer pavucontrol headsetcontrol shortcuts todo
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=libvirt? ( app-emulation/libvirt ) sensors? ( sys-apps/lm-sensors ) pulsemixer? ( media-sound/pulsemixer ) pavucontrol? ( media-sound/pavucontrol ) headsetcontrol? ( app-misc/headsetcontrol ) shortcuts? ( x11-misc/xvkbd ) todo? ( app-office/todoman ) x11-misc/xkblayout-state x11-misc/dunst
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=ca9b994ba7d8e7d7b99ceba3b7638ffb

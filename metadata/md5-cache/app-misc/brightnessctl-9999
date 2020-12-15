@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=systemd? ( sys-apps/systemd:= ) udev? ( virtual/udev )
+DESCRIPTION=This program allows you read and control device brightness.
+EAPI=7
+HOMEPAGE=https://github.com/Hummer12007/brightnessctl
+IUSE=systemd udev
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=systemd? ( sys-apps/systemd:= ) udev? ( virtual/udev )
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=061807bd668890285e55490204c4c10c

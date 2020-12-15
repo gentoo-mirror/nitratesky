@@ -1,0 +1,16 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-misc/ckb-next-void:0a14 - Applied patch for Void 0a14 device
+app-misc/ckb-next-void:animations - Enables animations
+app-misc/ckb-next-void:qt - Enables GUI and depencies on qt
+net-im/teams-for-linux:firejail - Patches the installed package with firejail profile. If enabled - adds dependency for sys-apps/firejail
+x11-misc/SH-wm-scripts:headsetcontrol - Adds headset control block
+x11-misc/SH-wm-scripts:libvirt - Enables block that shows VM status
+x11-misc/SH-wm-scripts:pavucontrol - Allows launching pavucontrol from volume block
+x11-misc/SH-wm-scripts:pulsemixer - Allows launching pulsemixer from volume block
+x11-misc/SH-wm-scripts:sensors - Adds temperature block
+x11-misc/SH-wm-scripts:shortcuts - Allows using xvkbd shortcuts
+x11-misc/SH-wm-scripts:todo - Adds todoman integration to display remaining todos
+x11-misc/monitors-switch:root-notify-send - Allows sending notification as root to the currently logged in user

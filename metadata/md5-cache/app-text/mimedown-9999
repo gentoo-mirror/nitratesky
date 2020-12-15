@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=app-text/cmark
+DESCRIPTION=Write email in markdown, and convert to multipart MIME
+EAPI=7
+HOMEPAGE=https://github.com/begriffs/mimedown
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=app-text/cmark
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=12019921498e4ff3a1e1952d3fbf8a91
