@@ -9,5 +9,5 @@ LICENSE=WTFPL
 RDEPEND=net-misc/curl
 SLOT=0
 SRC_URI=https://gist.githubusercontent.com/VTimofeenko/bb2725beb6f321c4c065055deca8bacd/raw/6759a8c5ee41caaab17989c0ecdd7728640fe861/tg-notify
-_eclasses_=portability	e8f7ef3a41965b21a734550f8a94c1c6	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
+_eclasses_=portability	1142b2ccb57f0bb5ae58b806089e08f0	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
 _md5_=ca2237b855885aeadd497000d3a84dae
