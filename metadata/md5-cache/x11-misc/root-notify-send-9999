@@ -9,5 +9,5 @@ LICENSE=WTFPL
 RDEPEND=x11-libs/libnotify
 SLOT=0
 SRC_URI=https://gist.githubusercontent.com/VTimofeenko/916c8e02d7fd0008561e24109a6fff07/raw/f5ef860b88b3f48103cdd8709186dcc5ca813aaa/root-notify-send
-_eclasses_=portability	1142b2ccb57f0bb5ae58b806089e08f0	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
+_eclasses_=portability	ef17692c89618f4fb47984b1186bb484	savedconfig	0bc45cb0429003c9abc73bae24a0d5bd
 _md5_=b1e5a3890b81f69671ea57a923512726
