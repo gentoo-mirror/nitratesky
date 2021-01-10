@@ -3,10 +3,11 @@ app-misc/ckb-next-void 0.1: Based on ckb-next, provides patched version for spec
 app-misc/headsetcontrol 2.3 9999: Adds loopback and LED control to headsets
 app-misc/tg-notify 9999: A _very_ primitive telegram notification mechanism
 app-office/todoman 3.8.0 3.9.0: Simple, standards-based, cli todo (aka: task) manager
-app-text/confluence_poster 1.1.0: Supplementary script for posting confluence wiki articles from vim.
+app-text/confluence_poster 1.1.0 1.4.0: Supplementary script for posting confluence wiki articles from vim.
 app-text/mimedown 9999: Write email in markdown, and convert to multipart MIME
-dev-python/atlassian-python-api 1.17.6: Provides a simple python interface for interacting with Atlassian products
+dev-python/atlassian-python-api 1.17.6 2.3.0: Provides a simple python interface for interacting with Atlassian products
 dev-python/typer 0.3.2: Typer, build great CLIs. Easy to code. Based on Python type hints.
+dev-python/xdg 5.0.1: Provides functions to return paths defined by XDG Base Directory Specification
 dev-vcs/git-fuzzy 9999: A CLI interface to git that relies heavily on fzf
 media-gfx/scrnsht_ctl 9999: A small ctl wrapper around main to be used in conjunction with i3/sway.
 net-im/teams-for-linux 0.7.0 1.0.0: Microsoft Teams client for Linux. Binary precompiled version.
