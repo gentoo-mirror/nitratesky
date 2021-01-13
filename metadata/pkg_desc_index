@@ -3,6 +3,7 @@ app-misc/ckb-next-void 0.1: Based on ckb-next, provides patched version for spec
 app-misc/headsetcontrol 2.3 9999: Adds loopback and LED control to headsets
 app-misc/tg-notify 9999: A _very_ primitive telegram notification mechanism
 app-office/todoman 3.8.0 3.9.0: Simple, standards-based, cli todo (aka: task) manager
+app-portage/portage-record-patch 1.0.0: A small utility to write down user patches
 app-text/confluence_poster 1.1.0 1.4.0 1.4.1: Supplementary script for posting confluence wiki articles from vim.
 app-text/mimedown 9999: Write email in markdown, and convert to multipart MIME
 dev-python/atlassian-python-api 1.17.6 2.3.0-r1: Provides a simple python interface for interacting with Atlassian products
