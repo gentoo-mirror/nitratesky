@@ -14,4 +14,4 @@ media-gfx/scrnsht_ctl 9999: A small ctl wrapper around main to be used in conjun
 net-im/teams-for-linux 0.7.0 1.0.0: Microsoft Teams client for Linux. Binary precompiled version.
 x11-misc/SH-wm-scripts 9999: This is a collection of scripts to be used with tmux, i3-gaps and i3blocks.
 x11-misc/monitors-switch 9999: A basic script to switch monitors when connected to specific network
-x11-misc/root-notify-send 9999: Allows calling notify-send as root for it to appear on USERNAME's desktop
+x11-misc/root-notify-send 1.0.0 9999: Allows calling notify-send as root for it to appear on a user's desktop

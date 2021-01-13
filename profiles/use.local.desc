@@ -14,3 +14,4 @@ x11-misc/SH-wm-scripts:sensors - Adds temperature block
 x11-misc/SH-wm-scripts:shortcuts - Allows using xvkbd shortcuts
 x11-misc/SH-wm-scripts:todo - Adds todoman integration to display remaining todos
 x11-misc/monitors-switch:root-notify-send - Allows sending notification as root to the currently logged in user
+x11-misc/root-notify-send:dunstify - Replaces notify-send with dunstify
