@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=app-shells/zsh-5.0 >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Asynchronous jobs for ZSH
+EAPI=6
+HOMEPAGE=https://github.com/mafredri/zsh-async
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=app-shells/zsh-5.0
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=c2c1dd0f7b53d1b66cebea2783abeb74
