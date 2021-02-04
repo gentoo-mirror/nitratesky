@@ -14,6 +14,7 @@ dev-python/xdg 5.0.1-r1: Provides functions to return paths defined by XDG Base 
 dev-vcs/git-fuzzy 9999: A CLI interface to git that relies heavily on fzf
 media-gfx/scrnsht_ctl 9999: A small ctl wrapper around main to be used in conjunction with i3/sway.
 net-im/teams-for-linux 0.7.0 1.0.0: Microsoft Teams client for Linux. Binary precompiled version.
+x11-libs/libXft-bgra-patch 9999: BGRA patch for libXft
 x11-misc/SH-wm-scripts 9999: This is a collection of scripts to be used with tmux, i3-gaps and i3blocks.
 x11-misc/monitors-switch 9999: A basic script to switch monitors when connected to specific network
 x11-misc/root-notify-send 1.0.0 1.1.0 9999: Allows calling notify-send as root for it to appear on a user's desktop
