@@ -1,0 +1,12 @@
+DEFINED_PHASES=install test unpack
+DEPEND=test? ( app-crypt/gnupg )
+DESCRIPTION=Public key of Vladimir Timofeenko
+EAPI=7
+HOMEPAGE=https://vtimofeenko.github.io
+IUSE=test
+KEYWORDS=amd64 x86
+LICENSE=public-domain
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://vtimofeenko.com/gpg/pubkey_id_vtimofeenko.asc test? ( https://vtimofeenko.com/gpg/pubkey_id_vtimofeenko.asc.sig )
+_md5_=43d167e673814df1b6dd84fb084a9d46
