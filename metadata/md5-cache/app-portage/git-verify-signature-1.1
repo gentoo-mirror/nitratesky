@@ -1,0 +1,12 @@
+BDEPEND=verify-sig? ( app-crypt/openpgp-keys-vtimofeenko ) verify-sig? ( app-crypt/gnupg >=app-portage/gemato-16 )
+DEFINED_PHASES=install unpack
+DESCRIPTION=Eclass that may be used to verify the signature on the top commit
+EAPI=7
+HOMEPAGE=https://github.com/VTimofeenko/git-verify-signature.eclass
+IUSE=verify-sig
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://github.com/VTimofeenko/git-verify-signature.eclass/archive/v1.1.tar.gz verify-sig? ( https://github.com/VTimofeenko/git-verify-signature.eclass/releases/download/v1.1/v1.1.tar.gz.sig )
+_eclasses_=verify-sig	40b4f4f782cf67118f594ce604cc4c0a
+_md5_=9a03aa11160bb66294712b8081276687
