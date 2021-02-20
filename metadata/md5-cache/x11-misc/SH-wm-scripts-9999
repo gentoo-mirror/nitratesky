@@ -1,13 +1,12 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=verify-sig? ( app-crypt/openpgp-keys-vtimofeenko ) >=dev-vcs/git-1.8.2.1[curl] verify-sig? ( app-crypt/gnupg >=app-portage/gemato-16 )
 DEFINED_PHASES=install postinst unpack
-DEPEND=libvirt? ( app-emulation/libvirt ) sensors? ( sys-apps/lm-sensors ) pulsemixer? ( media-sound/pulsemixer ) pavucontrol? ( media-sound/pavucontrol ) headsetcontrol? ( app-misc/headsetcontrol ) shortcuts? ( x11-misc/xvkbd ) todo? ( app-office/todoman ) x11-misc/xkblayout-state >=x11-misc/dunst-1.5.0
 DESCRIPTION=This is a collection of scripts to be used with tmux, i3-gaps and i3blocks.
 EAPI=7
 HOMEPAGE=https://github.com/VTimofeenko/wm-scripts
-IUSE=libvirt sensors pulsemixer pavucontrol headsetcontrol shortcuts todo
+IUSE=libvirt sensors pulsemixer pavucontrol headsetcontrol shortcuts todo verify-sig verify-sig
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=libvirt? ( app-emulation/libvirt ) sensors? ( sys-apps/lm-sensors ) pulsemixer? ( media-sound/pulsemixer ) pavucontrol? ( media-sound/pavucontrol ) headsetcontrol? ( app-misc/headsetcontrol ) shortcuts? ( x11-misc/xvkbd ) todo? ( app-office/todoman ) x11-misc/xkblayout-state >=x11-misc/dunst-1.5.0
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=9a2924d957a31feb32b87e21b7c58ff6
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	git-verify-signature	e4498dcfb4d1e0b0f43709dfa66f1da2	verify-sig	40b4f4f782cf67118f594ce604cc4c0a
+_md5_=5b2ffdabf9609099fe4e0e6e1fb4bc04
