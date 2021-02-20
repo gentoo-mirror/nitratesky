@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit git-r3
+inherit git-r3 git-verify-signature
 
 DESCRIPTION="This is a collection of scripts to be used with tmux, i3-gaps and i3blocks."
 HOMEPAGE="https://github.com/VTimofeenko/wm-scripts"
@@ -13,10 +13,10 @@ EGIT_REPO_URI="https://github.com/VTimofeenko/wm-scripts"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="libvirt sensors pulsemixer pavucontrol headsetcontrol shortcuts todo"
+IUSE="libvirt sensors pulsemixer pavucontrol headsetcontrol shortcuts todo verify-sig"
 
 # It is not strictly necessary to use i3blocks with this package, so it's not in the DEPEND
-DEPEND="
+RDEPEND="
 libvirt? ( app-emulation/libvirt )
 sensors? ( sys-apps/lm-sensors )
 pulsemixer? ( media-sound/pulsemixer )
@@ -27,8 +27,8 @@ todo? ( app-office/todoman )
 x11-misc/xkblayout-state
 >=x11-misc/dunst-1.5.0
 "
-RDEPEND="${DEPEND}"
-BDEPEND=""
+BDEPEND="verify-sig? ( app-crypt/openpgp-keys-vtimofeenko )"
+VERIFY_SIG_OPENPGP_KEY_PATH=/usr/share/openpgp-keys/pubkey_id_vtimofeenko.asc
 
 src_install () {
 	base_dir="usr/libexec/SH-wm-scripts"
