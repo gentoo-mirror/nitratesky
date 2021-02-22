@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Public key of Newsboat release
+EAPI=7
+HOMEPAGE=https://newsboat.org/
+IUSE=test
+KEYWORDS=amd64 x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=https://newsboat.org/newsboat.pgp
+_md5_=2523f0a8f75ecfbdca4e16febc96d990

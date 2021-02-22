@@ -1,3 +1,4 @@
+app-crypt/openpgp-keys-newsboat 20210221: Public key of Newsboat release
 app-crypt/openpgp-keys-vtimofeenko 20200204: Public key of Vladimir Timofeenko
 app-misc/brightnessctl 0.4 9999: This program allows you read and control device brightness.
 app-misc/ckb-next-void 0.1: Based on ckb-next, provides patched version for specific device
@@ -18,6 +19,7 @@ dev-vcs/git-fuzzy 9999: A CLI interface to git that relies heavily on fzf
 media-gfx/scrnsht_ctl 9999: A small ctl wrapper around main to be used in conjunction with i3/sway.
 net-analyzer/zabbix 5.2.4-r1: ZABBIX is software for monitoring of your applications, network and servers
 net-im/teams-for-linux 0.7.0 1.0.0: Microsoft Teams client for Linux. Binary precompiled version.
+net-news/newsboat 2.22.1: An RSS/Atom feed reader for text terminals
 x11-libs/libXft-bgra-patch 9999: BGRA patch for libXft
 x11-misc/SH-wm-scripts 9999: This is a collection of scripts to be used with tmux, i3-gaps and i3blocks.
 x11-misc/monitors-switch 9999: A basic script to switch monitors when connected to specific network
