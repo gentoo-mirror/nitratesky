@@ -19,7 +19,7 @@ dev-vcs/git-fuzzy 9999: A CLI interface to git that relies heavily on fzf
 media-gfx/scrnsht_ctl 9999: A small ctl wrapper around main to be used in conjunction with i3/sway.
 net-analyzer/zabbix 5.2.4-r1: ZABBIX is software for monitoring of your applications, network and servers
 net-im/teams-for-linux 0.7.0 1.0.0: Microsoft Teams client for Linux. Binary precompiled version.
-net-misc/ytfzf 2021.03.04 99999999: A posix script that helps you find Youtube videos and opens using mpv/youtube-dl
+net-misc/ytfzf 1.0.1 99999999: A posix script that helps you find Youtube videos and opens using mpv/youtube-dl
 net-news/newsboat 2.22.1: An RSS/Atom feed reader for text terminals
 x11-libs/libXft-bgra-patch 9999: BGRA patch for libXft
 x11-misc/SH-wm-scripts 9999: This is a collection of scripts to be used with tmux, i3-gaps and i3blocks.
