@@ -18,6 +18,9 @@ net-analyzer/zabbix:server - Enable zabbix server
 net-analyzer/zabbix:ssh - SSH v2 based checks
 net-analyzer/zabbix:static - Build statically linked binaries
 net-im/teams-for-linux:firejail - Patches the installed package with firejail profile. If enabled - adds dependency for sys-apps/firejail
+www-apps/hugo:fish-completion - Enable fish completion support
+www-apps/hugo:sass - Enable SASS/SCSS support
+www-apps/hugo:zsh-completion - Enable zsh completion support
 x11-misc/SH-wm-scripts:headsetcontrol - Adds headset control block
 x11-misc/SH-wm-scripts:libvirt - Enables block that shows VM status
 x11-misc/SH-wm-scripts:pavucontrol - Allows launching pavucontrol from volume block
