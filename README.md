@@ -88,7 +88,7 @@ With zsh-async you can run multiple asynchronous jobs, enforce unique jobs (mult
 ## net-misc/ytfzf
 
 **Versions available**:
-1.0.1, 1.1.0, 99999999
+1.0.1, 1.1.0, 1.1.1, 99999999
 
 Remotes:
 
@@ -175,7 +175,7 @@ Compared to the Gentoo repo this ebuild has RDEPEND in addition to DEPEND. I am 
 ## dev-python/atlassian-python-api
 
 **Versions available**:
-1.17.6, 2.3.0
+1.17.6, 2.3.0, 3.8.0
 
 Remotes:
 
