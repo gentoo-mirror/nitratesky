@@ -4,10 +4,11 @@ DEPEND=>=app-shells/fzf-0.20.0
 DESCRIPTION=A CLI interface to git that relies heavily on fzf
 EAPI=7
 HOMEPAGE=https://github.com/bigH/git-fuzzy
+INHERIT=git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=app-shells/fzf-0.20.0
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=4fe14af24465db038b2fdace5d666f41
