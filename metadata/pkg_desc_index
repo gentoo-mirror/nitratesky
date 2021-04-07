@@ -6,7 +6,7 @@ app-misc/headsetcontrol 2.3 9999: Adds loopback and LED control to headsets
 app-misc/tg-notify 9999: A _very_ primitive telegram notification mechanism
 app-office/todoman 3.8.0 3.9.0: Simple, standards-based, cli todo (aka: task) manager
 app-portage/git-verify-signature 1.1: Eclass that may be used to verify the signature on the top commit
-app-portage/overlay-maintain-tools 1.0.0-r1: Generates README and versions report for overlay
+app-portage/overlay-maintain-tools 1.0.0-r1 1.1.0: Generates README and versions report for overlay
 app-portage/portage-record-patch 1.0.0 1.1.0: A small utility to write down user patches
 app-shells/zsh-async 1.8.5 9999: Asynchronous jobs for ZSH
 app-text/confluence_poster 1.1.0 1.4.0 1.4.1-r1 1.4.2: Supplementary script for posting confluence wiki articles from vim.
