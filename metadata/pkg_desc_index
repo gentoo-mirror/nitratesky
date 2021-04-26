@@ -1,5 +1,6 @@
 app-crypt/openpgp-keys-newsboat 20210221: Public key of Newsboat release
 app-crypt/openpgp-keys-vtimofeenko 20200204: Public key of Vladimir Timofeenko
+app-misc/bna 5.0.2 9999: Command-line interface for managing Battle.net authenticator
 app-misc/brightnessctl 0.4 9999: This program allows you read and control device brightness.
 app-misc/ckb-next-void 0.1: Based on ckb-next, provides patched version for specific device
 app-misc/headsetcontrol 2.3 9999: Adds loopback and LED control to headsets
