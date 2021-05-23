@@ -29,7 +29,7 @@ Alternatively, you can add the following to your `/etc/portage/repos.conf`:
 ## app-misc/headsetcontrol
 
 **Versions available**:
-2.3, 9999
+2.3, 2.4, 9999
 
 Remotes:
 
@@ -223,7 +223,7 @@ Provides a simple python interface for interacting with Atlassian products
 ## app-office/todoman
 
 **Versions available**:
-3.8.0, 3.9.0
+3.8.0, 3.9.0, 4.0.0
 
 Remotes:
 
