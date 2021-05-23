@@ -3,9 +3,9 @@ app-crypt/openpgp-keys-vtimofeenko 20200204: Public key of Vladimir Timofeenko
 app-misc/bna 5.0.2 9999: Command-line interface for managing Battle.net authenticator
 app-misc/brightnessctl 0.4 9999: This program allows you read and control device brightness.
 app-misc/ckb-next-void 0.1: Based on ckb-next, provides patched version for specific device
-app-misc/headsetcontrol 2.3 9999: Adds loopback and LED control to headsets
+app-misc/headsetcontrol 2.3 2.4 9999: Adds loopback and LED control to headsets
 app-misc/tg-notify 9999: A _very_ primitive telegram notification mechanism
-app-office/todoman 3.8.0 3.9.0: Simple, standards-based, cli todo (aka: task) manager
+app-office/todoman 3.8.0 3.9.0 4.0.0: Simple, standards-based, cli todo (aka: task) manager
 app-portage/git-verify-signature 1.1: Eclass that may be used to verify the signature on the top commit
 app-portage/overlay-maintain-tools 1.0.0-r1 1.1.0: Generates README and versions report for overlay
 app-portage/portage-record-patch 1.0.0 1.1.0: A small utility to write down user patches
