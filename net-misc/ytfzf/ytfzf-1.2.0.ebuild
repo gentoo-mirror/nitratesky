@@ -26,6 +26,7 @@ RDEPEND="
 app-misc/jq
 media-video/mpv
 net-misc/youtube-dl
+x11-libs/libnotify
 "
 
 DOCS=( README.md docs/conf.sh )
