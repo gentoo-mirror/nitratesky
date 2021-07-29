@@ -9,5 +9,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=app-crypt/ccid[usb] app-crypt/p11-kit[systemd] dev-libs/opensc[pcsc-lite] sys-apps/pcsc-lite[systemd,udev] sys-apps/systemd[cryptsetup,pkcs11] sys-kernel/dracut
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	verify-sig	10c122d0f49c54100ad5e279db0cb43c	git-verify-signature	e4498dcfb4d1e0b0f43709dfa66f1da2
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	verify-sig	c777c0c815c60c9460f1ded02a8edb0a	git-verify-signature	e4498dcfb4d1e0b0f43709dfa66f1da2
 _md5_=4543e5c19ee6f119e476d900955450a2
