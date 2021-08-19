@@ -1,0 +1,15 @@
+BDEPEND=x11-libs/libXext x11-libs/libXres python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Utility which allows to draw images on terminals by using child windows
+EAPI=7
+HOMEPAGE=https://github.com/seebye/ueberzug
+INHERIT=distutils-r1
+IUSE=python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=dev-python/attrs[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/docopt[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pillow[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/psutil[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/python-xlib[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/six[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] x11-libs/libXext x11-libs/libXres python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
+SLOT=0
+SRC_URI=mirror://pypi/u/ueberzug/ueberzug-18.1.9.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	08d890890f70fe0096093016e55438d5	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	e297e8afd355d60fb9d2d7b37b81214f
+_md5_=247f2be09ffeefdd99267f6cebc40acf

@@ -21,6 +21,7 @@ dev-python/typer 0.3.2-r1: Typer, build great CLIs. Easy to code. Based on Pytho
 dev-python/xdg 5.0.1-r1: Provides functions to return paths defined by XDG Base Directory Specification
 dev-vcs/git-fuzzy 9999: A CLI interface to git that relies heavily on fzf
 media-gfx/scrnsht_ctl 9999: A small ctl wrapper around main to be used in conjunction with i3/sway.
+media-gfx/ueberzug 18.1.9 9999: Utility which allows to draw images on terminals by using child windows
 media-sound/ncspot 0.7.3 0.8.1: ncurses Spotify client written in Rust
 net-analyzer/zabbix 5.2.4-r1: ZABBIX is software for monitoring of your applications, network and servers
 net-im/teams-for-linux 0.7.0 1.0.0: Microsoft Teams client for Linux. Binary precompiled version.
