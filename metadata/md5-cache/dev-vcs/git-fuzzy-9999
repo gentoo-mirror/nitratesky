@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst prepare unpack
-DEPEND=>=app-shells/fzf-0.20.0
+DEPEND=>=app-shells/fzf-0.20.0 sys-devel/bc
 DESCRIPTION=A CLI interface to git that relies heavily on fzf
 EAPI=7
 HOMEPAGE=https://github.com/bigH/git-fuzzy
@@ -8,7 +8,7 @@ INHERIT=git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=>=app-shells/fzf-0.20.0
+RDEPEND=>=app-shells/fzf-0.20.0 sys-devel/bc
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=a5d9c9886cc2ee0245a36a7f92a66a87
+_md5_=fcd882efced84c661ed8d672cded4576
