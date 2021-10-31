@@ -5,6 +5,7 @@
 app-misc/ckb-next-void:0a14 - Applied patch for Void 0a14 device
 app-misc/ckb-next-void:animations - Enables animations
 app-misc/ckb-next-void:qt - Enables GUI and depencies on qt
+media-sound/ncspot:cover - Uses media-gfx/ueberzug to display covers
 net-analyzer/zabbix:agent - Enable zabbix agent (for to-be-monitored machines)
 net-analyzer/zabbix:agent2 - Enable go-based zabbix agent 2 (for to-be-monitored machines)
 net-analyzer/zabbix:frontend - Enable zabbix web frontend
