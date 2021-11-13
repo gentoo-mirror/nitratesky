@@ -1,7 +1,7 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit cmake git-r3 udev
 
@@ -14,26 +14,28 @@ if [[ ${PV} = 9999 ]] ; then
 	EGIT_COMMIT=""
 else
 	EGIT_COMMIT="${PV}"
+	KEYWORDS="~amd64 ~x86"
 fi
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
 IUSE="udev"
 
 DEPEND="
-dev-util/cmake
-dev-libs/hidapi
-udev? ( virtual/udev )
+	dev-util/cmake
+	dev-libs/hidapi
+	udev? ( virtual/udev )
 "
-RDEPEND=""
+RDEPEND="
+	dev-libs/hidapi
+"
 BDEPEND=""
 
 CMAKE_MAKEFILE_GENERATOR="emake"
 
 src_prepare() {
 	default
-	sed -i "s/\/etc\/udev\/rules\.d/\/lib\/udev\/rules.d/" "${WORKDIR}/${P}/CMakeLists.txt" || die "Failed to replace the udev rules location"
+	sed -i "s;lib/udev/rules.d;$(get_udevdir)/rules.d;" "${WORKDIR}/${P}/CMakeLists.txt" || die "Failed to replace the udev rules location"
 	cmake_src_prepare
 }
 
