@@ -5,7 +5,7 @@ app-misc/brightnessctl 0.4 9999: This program allows you read and control device
 app-misc/ckb-next-void 0.1: Based on ckb-next, provides patched version for specific device
 app-misc/headsetcontrol 2.4 2.6 9999: Adds loopback and LED control to headsets
 app-misc/tg-notify 9999: A _very_ primitive telegram notification mechanism
-app-office/todoman 3.9.0 4.0.0-r1: Simple, standards-based, cli todo (aka: task) manager
+app-office/todoman 3.9.0 4.0.0-r1 4.0.1: Simple, standards-based, cli todo (aka: task) manager
 app-portage/git-verify-signature 1.3: Eclass that may be used to verify the signature on the top commit
 app-portage/overlay-maintain-tools 1.3.0 1.3.1: Generates README and versions report for overlay
 app-portage/portage-record-patch 1.0.0 1.1.0: A small utility to write down user patches
@@ -13,8 +13,8 @@ app-shells/zsh-async 1.8.5 9999: Asynchronous jobs for ZSH
 app-text/confluence_poster 1.4.4: Supplementary script for posting confluence wiki articles from vim.
 app-text/mimedown 9999: Write email in markdown, and convert to multipart MIME
 dev-libs/libversion 3.0.1: Advanced version string comparison library
-dev-python/atlassian-python-api 1.17.6 2.3.0-r3 3.11.0: Provides a simple python interface for interacting with Atlassian products
-dev-python/libversion 1.2.3: Python bindings for libversion
+dev-python/atlassian-python-api 2.3.0-r3 3.11.0 3.14.1: Provides a simple python interface for interacting with Atlassian products
+dev-python/libversion 1.2.3 1.2.4: Python bindings for libversion
 dev-python/pynvim 0.4.2-r1 0.4.3: Python client for Neovim
 dev-python/pyzabbix 0.8.2 0.8.2-r1 1.0.0: Zabbix API Python interface
 dev-python/typer 0.3.2-r1 0.4.0: Typer, build great CLIs. Easy to code. Based on Python type hints.
@@ -29,7 +29,7 @@ net-misc/ytfzf 1.1.4 1.1.5 1.1.6 1.2.0 99999999: A posix script that helps you f
 net-news/newsboat 2.24-r2 2.25-r2: An RSS/Atom feed reader for text terminals
 net-vpn/wireguard-namespace-service 0.1.1 9999: A script and a service to bring up isolated namespace for WireGuard
 sys-kernel/dracut-pcscd-cryptsetup 9999: A dracut module that installs pcscd daemon into initramfs
-www-apps/hugo 0.83.1 0.84.3 0.85.0 0.86.1 0.87.0: The world's fastest framework for building websites
+www-apps/hugo 0.85.0 0.86.1 0.87.0: The world's fastest framework for building websites
 x11-libs/libXft-bgra-patch 2.3.3 2.3.4: BGRA patch for libXft
 x11-misc/SH-wm-scripts 9999: This is a collection of scripts to be used with tmux, i3-gaps and i3blocks.
 x11-misc/monitors-switch 9999: A basic script to switch monitors when connected to specific network
