@@ -6,18 +6,6 @@ app-misc/ckb-next-void:0a14 - Applied patch for Void 0a14 device
 app-misc/ckb-next-void:animations - Enables animations
 app-misc/ckb-next-void:qt - Enables GUI and depencies on qt
 media-sound/ncspot:cover - Uses media-gfx/ueberzug to display covers
-net-analyzer/zabbix:agent - Enable zabbix agent (for to-be-monitored machines)
-net-analyzer/zabbix:agent2 - Enable go-based zabbix agent 2 (for to-be-monitored machines)
-net-analyzer/zabbix:frontend - Enable zabbix web frontend
-net-analyzer/zabbix:ipv6 - Turn on support of IPv6
-net-analyzer/zabbix:java - Enable Zabbix Java JMX Management Gateway
-net-analyzer/zabbix:libxml2 - Use libxml2 client library
-net-analyzer/zabbix:odbc - Enable Database Monitor and use UnixODBC Library by default
-net-analyzer/zabbix:openipmi - Enable openipmi things
-net-analyzer/zabbix:proxy - Enable proxy support
-net-analyzer/zabbix:server - Enable zabbix server
-net-analyzer/zabbix:ssh - SSH v2 based checks
-net-analyzer/zabbix:static - Build statically linked binaries
 net-im/teams-for-linux:firejail - Patches the installed package with firejail profile. If enabled - adds dependency for sys-apps/firejail
 www-apps/hugo:fish-completion - Enable fish completion support
 www-apps/hugo:sass - Enable SASS/SCSS support
