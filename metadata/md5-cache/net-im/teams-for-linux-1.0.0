@@ -10,5 +10,5 @@ LICENSE=GPL-3 MIT BSD
 RDEPEND=firejail? ( >=sys-apps/firejail-0.9.50 )
 SLOT=0
 SRC_URI=https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v1.0.0/teams-for-linux-1.0.0.tar.gz
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
 _md5_=dd8145f2ce598c3b5f51e3d3916f6554

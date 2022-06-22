@@ -8,5 +8,5 @@ KEYWORDS=amd64
 LICENSE=GPL-3 MIT BSD
 SLOT=0
 SRC_URI=https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v0.7.0/teams-for-linux-0.7.0.tar.gz
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
 _md5_=ed196c3b2ea9d984b7d9277bab4c2dd2
