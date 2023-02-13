@@ -1,4 +1,4 @@
-BDEPEND=verify-sig? ( app-crypt/openpgp-keys-vtimofeenko ) >=dev-vcs/git-1.8.2.1[curl] verify-sig? ( app-crypt/gnupg >=app-portage/gemato-18.0 )
+BDEPEND=verify-sig? ( app-crypt/openpgp-keys-vtimofeenko ) >=dev-vcs/git-1.8.2.1[curl] verify-sig? ( app-crypt/gnupg >=app-portage/gemato-16 )
 DEFINED_PHASES=install prepare unpack
 DESCRIPTION=A dracut module that installs pcscd daemon into initramfs
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=app-crypt/ccid[usb] app-crypt/p11-kit[systemd] dev-libs/opensc[pcsc-lite] sys-apps/pcsc-lite[systemd,udev] sys-apps/systemd[cryptsetup,pkcs11] sys-kernel/dracut
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	verify-sig	b4c85caec7a10c3bd60a51de932bbfab	git-verify-signature	b6a968b1f019192621b1f0450027c164
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	verify-sig	85e14d0a93afa75c621382409ada8732	git-verify-signature	b6a968b1f019192621b1f0450027c164
 _md5_=4543e5c19ee6f119e476d900955450a2
