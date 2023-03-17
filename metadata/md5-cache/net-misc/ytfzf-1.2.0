@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=app-misc/jq media-video/mpv net-misc/youtube-dl x11-libs/libnotify
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	optfeature	1a2157392a869265b2afcb63a26c12ac
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
 _md5_=17ed1786be8f681d41ed4c28917b07d8
