@@ -107,7 +107,7 @@ A _very_ primitive telegram notification mechanism
 ## app-office/todoman
 
 **Versions available**:
-3.9.0, 4.0.0, 4.0.1
+4.0.0, 4.0.1
 
 Remotes:
 
@@ -230,7 +230,7 @@ Need to compare software, package or whatever versions? Comparing 1.0 and 1.1 co
 ## dev-python/atlassian-python-api
 
 **Versions available**:
-2.3.0, 3.11.0, 3.14.1
+3.11.0, 3.14.1
 
 Remotes:
 
