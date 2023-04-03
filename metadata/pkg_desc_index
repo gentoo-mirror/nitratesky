@@ -5,7 +5,7 @@ app-misc/brightnessctl 0.4 9999: This program allows you read and control device
 app-misc/ckb-next-void 0.1: Based on ckb-next, provides patched version for specific device
 app-misc/headsetcontrol 2.4 2.6 9999: Adds loopback and LED control to headsets
 app-misc/tg-notify 9999: A _very_ primitive telegram notification mechanism
-app-office/todoman 3.9.0 4.0.0-r1 4.0.1: Simple, standards-based, cli todo (aka: task) manager
+app-office/todoman 4.0.0-r1 4.0.1: Simple, standards-based, cli todo (aka: task) manager
 app-portage/git-verify-signature 1.3: Eclass that may be used to verify the signature on the top commit
 app-portage/overlay-maintain-tools 1.3.0 1.3.1: Generates README and versions report for overlay
 app-portage/portage-record-patch 1.0.0 1.1.0: A small utility to write down user patches
@@ -13,7 +13,7 @@ app-shells/zsh-async 1.8.5 9999: Asynchronous jobs for ZSH
 app-text/confluence_poster 1.4.4: Supplementary script for posting confluence wiki articles from vim.
 app-text/mimedown 9999: Write email in markdown, and convert to multipart MIME
 dev-libs/libversion 3.0.1: Advanced version string comparison library
-dev-python/atlassian-python-api 2.3.0-r3 3.11.0 3.14.1: Provides a simple python interface for interacting with Atlassian products
+dev-python/atlassian-python-api 3.11.0 3.14.1: Provides a simple python interface for interacting with Atlassian products
 dev-python/libversion 1.2.3 1.2.4: Python bindings for libversion
 dev-python/pynvim 0.4.2-r1 0.4.3: Python client for Neovim
 dev-python/typer 0.4.0-r1: Typer, build great CLIs. Easy to code. Based on Python type hints.
