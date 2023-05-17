@@ -139,7 +139,7 @@ git-verify-signature.eclass is based on and exposes the same variables
 ## app-portage/overlay-maintain-tools
 
 **Versions available**:
-1.3.0, 1.3.1
+1.3.1
 
 Remotes:
 
@@ -261,7 +261,7 @@ Python bindings for libversion, which provides fast, powerful and correct generi
 ## dev-python/pynvim
 
 **Versions available**:
-0.4.2, 0.4.3
+0.4.3
 
 Remotes:
 
