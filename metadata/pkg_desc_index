@@ -11,6 +11,7 @@ app-portage/portage-record-patch 1.0.0 1.1.0: A small utility to write down user
 app-shells/zsh-async 1.8.5 9999: Asynchronous jobs for ZSH
 app-text/mimedown 9999: Write email in markdown, and convert to multipart MIME
 dev-libs/libversion 3.0.1: Advanced version string comparison library
+dev-python/atlassian-python-api 3.11.0 3.14.1: Provides a simple python interface for interacting with Atlassian products
 dev-python/libversion 1.2.3 1.2.4: Python bindings for libversion
 dev-python/pynvim 0.4.2-r1 0.4.3: Python client for Neovim
 dev-python/xdg 5.0.1-r1: Provides functions to return paths defined by XDG Base Directory Specification
