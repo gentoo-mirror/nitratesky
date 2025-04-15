@@ -1,4 +1,4 @@
-BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/setuptools-75.8.2[python_targets_python3_10(-)?]
+BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/setuptools-78.1.0[python_targets_python3_10(-)?]
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=Supplementary script for posting confluence wiki articles from vim.
 EAPI=7
@@ -7,9 +7,9 @@ INHERIT=distutils-r1 bash-completion-r1
 IUSE=zsh-completion bash-completion python_targets_python3_10
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=~dev-python/atlassian-python-api-3.11.0[python_targets_python3_10(-)?] >=dev-python/typer-0.3.2[python_targets_python3_10(-)?] dev-python/toml[python_targets_python3_10(-)?] dev-python/requests[python_targets_python3_10(-)?] >=dev-python/pyxdg-0.26-r1[python_targets_python3_10(-)?] ~dev-python/tomlkit-0.11.7[python_targets_python3_10(-)?] ~dev-python/markdown-3.4.3[python_targets_python3_10(-)?] >=dev-python/marshmallow-3.12.1[python_targets_python3_10(-)?] zsh-completion? ( app-shells/zsh ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/setuptools-75.8.2[python_targets_python3_10(-)?]
+RDEPEND=~dev-python/atlassian-python-api-3.11.0[python_targets_python3_10(-)?] >=dev-python/typer-0.3.2[python_targets_python3_10(-)?] dev-python/toml[python_targets_python3_10(-)?] dev-python/requests[python_targets_python3_10(-)?] >=dev-python/pyxdg-0.26-r1[python_targets_python3_10(-)?] ~dev-python/tomlkit-0.11.7[python_targets_python3_10(-)?] ~dev-python/markdown-3.4.3[python_targets_python3_10(-)?] >=dev-python/marshmallow-3.12.1[python_targets_python3_10(-)?] zsh-completion? ( app-shells/zsh ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/setuptools-78.1.0[python_targets_python3_10(-)?]
 REQUIRED_USE=|| ( python_targets_python3_10 )
 SLOT=0
 SRC_URI=mirror://pypi/c/confluence_poster/confluence_poster-1.4.4.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-r1	fa2daad0051275fa416115c76e53b1de	distutils-r1	57cca9c4edd0e2a2591feae559933c10	bash-completion-r1	767861f3744f589ee5291c1698b1c082
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	d1be7a6de225276141d669742d56f3f3	python-r1	fa2daad0051275fa416115c76e53b1de	distutils-r1	e00a374020e6ed96997e27ad9902706d	bash-completion-r1	767861f3744f589ee5291c1698b1c082
 _md5_=2b2fb00395ff8b2fa929619721bced37
