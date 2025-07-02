@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=libvirt? ( app-emulation/libvirt ) sensors? ( sys-apps/lm-sensors ) pulsemixer? ( media-sound/pulsemixer ) pavucontrol? ( media-sound/pavucontrol ) headsetcontrol? ( app-misc/headsetcontrol ) shortcuts? ( x11-misc/xvkbd ) todo? ( app-office/todoman ) x11-misc/xkblayout-state >=x11-misc/dunst-1.5.0
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	verify-sig	7433426b6b28bf2737ba4b82c8aa8c53	git-verify-signature	b6a968b1f019192621b1f0450027c164
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	verify-sig	4e83419d7fb5d336f6a4de8193968319	git-verify-signature	b6a968b1f019192621b1f0450027c164
 _md5_=5b2ffdabf9609099fe4e0e6e1fb4bc04
